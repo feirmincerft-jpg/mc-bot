@@ -7,7 +7,7 @@ app.get('/', (req, res) => res.send('البوت يعمل بنجاح!'));
 app.listen(3000, () => console.log('خادم الويب يعمل على المنفذ 3000'));
 
 const botConfig = {
-  host: 'dzr56.play.hosting', // عنوان سيرفرك
+  host: '157.254.234.159', // IP الرقمي المباشر
   port: 25876,                // بورت سيرفرك
   username: 'AFK_Bot_24',     // اسم البوت
   auth: 'offline',            // هذا السطر يحل المشكلة ويخبر البوت أن السيرفر مكرك
